@@ -2,8 +2,8 @@
 
 **`intAsBinary(num[, bits[, leadingZeroes]])`**
 * `num` \<integer> | \<BigInt>
-* `bits` \<integer>
-* `leadingZeroes` \<Boolean>
+* `bits` \<integer> [default: `32`]
+* `leadingZeroes` \<Boolean> [default: `true`]
 * Returns \<string>
 
 ```js
