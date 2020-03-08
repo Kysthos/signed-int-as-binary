@@ -43,7 +43,4 @@ function intAsBinary(n, bits = 32, leadingZero = true) {
   return '0'.repeat(Number(bits));
 }
 
-module.exports = {
-  int32AsBinary,
-  intAsBinary
-}
+module.exports = intAsBinary;
